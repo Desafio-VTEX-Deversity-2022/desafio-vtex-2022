@@ -1,6 +1,6 @@
 {
   "admin.app.users": {
     "component": "UsersContainer",
-    "path": "/admin/app/change-me"
+    "path": "/admin/app/training-week/users"
   }
 }
