@@ -9,7 +9,11 @@
         "store": "0.x",
         "messages": "1.x"
     },
-    "dependencies": {},
+    "dependencies": {
+        "vtex.search-graphql",
+        "vtex.render-runtime",
+        "vtex.store-image"
+    },
     "registries": [
         "smartcheckout"
     ],
