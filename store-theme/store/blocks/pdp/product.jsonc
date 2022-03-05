@@ -8,8 +8,7 @@
       "product-specification-group#table",
       "shelf.relatedProducts",
       "product-reviews",
-      "product-questions-and-answers",
-      "product-draw"
+      "product-questions-and-answers"
     ]
   },
   "flex-layout.row#specifications-title": {
@@ -112,7 +111,6 @@
       "product-quantity",
       "product-assembly-options",
       "product-gifts",
-      "product-draw",
       "flex-layout.row#buy-button",
       "availability-subscriber",
       "shipping-simulator",

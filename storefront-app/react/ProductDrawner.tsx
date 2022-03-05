@@ -20,10 +20,10 @@ const ProductDraw = (/** { productIds } */) => {
   )
 }
 
-//ProductDraw.schema = {
-// title: 'My component',
-//  type: 'object',
-//  properties: {},
-//}
+ProductDraw.schema = {
+  title: 'My component',
+  type: 'object',
+  properties: {},
+}
 
 export default ProductDraw
