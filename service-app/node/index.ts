@@ -2,7 +2,7 @@ import { method, ParamsContext, RecorderState, ServiceContext } from '@vtex/api'
 import { Service } from '@vtex/api'
 
 import { Clients } from './clients'
-import { changeMeMiddleware } from './middlewares/changeMeMiddleware'
+import { jsonplaceHolder } from './middlewares/jsonplaceholder'
 import { changeMeResolver } from './resolvers/changeMeResolver'
 
 const MEDIUM_TIMEOUT_MS = 2 * 1000
@@ -23,8 +23,8 @@ export default new Service<Clients, RecorderState, ParamsContext>({
     },
   },
   routes: {
-    changeMe: method({
-      GET: [changeMeMiddleware]
+    jsonplaceholder: method({
+      GET: [jsonplaceHolder]
     }),
     // otherRoute: method({
     //   POST: [otherMiddleware, anotherMiddleware]

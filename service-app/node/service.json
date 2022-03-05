@@ -6,7 +6,7 @@
   "maxReplicas": 5,
   "routes": {
     "changeMe": {
-      "path": "/_v/change-me",
+      "path": "/_v/jsonplaceholder/users",
       "public": true
     }
   }

@@ -6,10 +6,10 @@ Replicar as rotas e queries apresentadas na Demo. O app deve possuir duas rotas:
 
 ## Etapas
 
-- [ ] Linkar o `storefront-service`;
-- [ ] Adicionar a rota `/_v/jsonplaceholder/users` no arquivo `service.json`;
+- [X] Linkar o `storefront-service`;
+- [X] Adicionar a rota `/_v/jsonplaceholder/users` no arquivo `service.json`;
 - [ ] No objeto `export default` do arquivo `node/index.ts`, adicionar a rota anterior dentro de `routes`;
-- [ ] Criar middleware para `GET` na rota anterior e configurá-lo no mesmo lugar mencionado anteriormente;
+- [X] Criar middleware para `GET` na rota anterior e configurá-lo no mesmo lugar mencionado anteriormente;
 - [ ] Implementar o `client` para o JsonPlaceholder e adicioná-lo no arquivo `node/clients/index.ts`;
 - [ ] Adicionar policy de `outbound-access` no `manifest` para o host `jsonplaceholder.typicode.com` e path `/*`;
 - [ ] Aprimorar middleware anterior para consumir o `client` implementado;
