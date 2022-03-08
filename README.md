@@ -1,1 +1,1 @@
-# desafio-vtex-2022
+# training-week-demo
