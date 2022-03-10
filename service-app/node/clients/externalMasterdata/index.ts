@@ -1,6 +1,7 @@
 import { ExternalClient, InstanceOptions, IOContext } from '@vtex/api'
+import { JsonPlaceholderClient } from '../jsonPlaceholder/index';
 
-export class ExternalMasterdata extends ExternalClient {
+export class JsonPlaceholderClient extends ExternalClient {
   constructor(context: IOContext, options?: InstanceOptions) {
     super(`http://${context.account}.vtexcommercestable.com.br`, context, {
       ...options,
