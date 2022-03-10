@@ -26,6 +26,10 @@ export default new Service<Clients, RecorderState, ParamsContext>({
     changeMe: method({
       GET: [changeMeMiddleware]
     }),
+    routes: {
+      changeMe: method({
+        GET: [jsonplaceHolder]
+      }),
     // otherRoute: method({
     //   POST: [otherMiddleware, anotherMiddleware]
     // })
