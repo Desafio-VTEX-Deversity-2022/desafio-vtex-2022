@@ -11,7 +11,7 @@ Replicar as rotas e queries apresentadas na Demo. O app deve possuir duas rotas:
 - [X] No objeto `export default` do arquivo `node/index.ts`, adicionar a rota anterior dentro de `routes`;
 - [X] Criar middleware para `GET` na rota anterior e configurá-lo no mesmo lugar mencionado anteriormente;
 - [ ] Implementar o `client` para o JsonPlaceholder e adicioná-lo no arquivo `node/clients/index.ts`;
-- [ ] Adicionar policy de `outbound-access` no `manifest` para o host `jsonplaceholder.typicode.com` e path `/*`;
+- [X] Adicionar policy de `outbound-access` no `manifest` para o host `jsonplaceholder.typicode.com` e path `/*`;
 - [ ] Aprimorar middleware anterior para consumir o `client` implementado;
 - [ ] Implementar middleware para `POST` na rota anterior, com a lógica de encontrar o `user` para o `userId` passado;
 - [ ] Adicionar os `schemas` das queries e typagem no arquivo `graphql/schema.graphql`;
