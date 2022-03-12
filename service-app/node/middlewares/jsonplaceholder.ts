@@ -1,15 +1,14 @@
-import { json } from 'co-body'
+// import { json } from 'co-body'
 
 export async function jsonplaceHolder(ctx: Context, next: () => Promise<any>) {
-  const {  } = ctx
+  const { 
+    OMSProxy: {orderId}
+  } = ctx
 
-  ctx.vtex.route.params
+  ctx.clients.catalog.getSkuById(orderId)
 
-  json(ctx.req)
-
-  ctx.body = {
-    message: 'I think you have to change me'
-  }
+  // const data = await catalog.getSkuById(id: string)
+  // ctx.body = data
 
   await next()
 }

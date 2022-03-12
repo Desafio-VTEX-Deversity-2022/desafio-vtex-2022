@@ -4,7 +4,7 @@ export const changeMeResolver =  (
   ctx: Context
   ) => {
   const {} = ctx
-
+  
   return {
     message: 'I am almost sure that you have to change me'
   }
